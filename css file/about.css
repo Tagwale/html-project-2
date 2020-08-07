@@ -79,3 +79,112 @@
   border-top-left-radius: 0.5em;
   border-bottom-right-radius: 0.5em;
 }
+.our-team {
+  margin-top: -50px;
+  margin-bottom: 80px;
+}
+.team-members {
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.team-member {
+  width: 22%;
+  font-family: sans-serif;
+}
+.team-member .photo {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 0.5em 0.1em 0.1em 0.1em;
+  margin-bottom: 40px;
+  border-bottom: 3px solid #111;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.team-member .first-member .photo {
+  background-image: url('../images/team one.jpg');
+}
+.team-member .second-member .photo {
+  background-image: url('../images/team two.jpg');
+}
+.team-member .third-member .photo {
+  background-image: url('../images/team three.jpg');
+}
+.team-member .fourth-member .photo {
+  background-image: url('../images/team four.jpg');
+}
+.team-member span {
+  font-size: 12px;
+}
+.team-member h3 {
+  font-size: 24px;
+  margin: 10px 0px;
+}
+.team-member p {
+  color: #646464;
+  font-size: 13px;
+  line-height: 1.7em;
+}
+.team-member .empty-slider span {
+  display: inline-flex;
+  width: 20px;
+  height: 3px;
+}
+.team-member .empty-slider span:last-child {
+  background: #111;
+}
+.team-member .social-icon {
+  padding: 14px 0px;
+  border-bottom: 2px dotted #646464;
+  display: flex;
+  justify-content: space-between;
+}
+.team-member .social-icon svg {
+  fill: #646464;
+  cursor: pointer;
+}
+.awesome-fact {
+  background: #111;
+  height: 350px;
+  display: flex;
+}
+.awesome-fact-content {
+  width: 1000px;
+  margin: 0 auto;
+  color: #e2e2e2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+.awesome-fact-content .heading {
+  text-align: center;
+}
+.awesome-fact-content .heading h2 {
+  margin: 0;
+  margin-top: 8px;
+}
+.awesome-fact-content .empty-slider span {
+  width: 20px;
+  height: 3px;
+}
+.awesome-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 50px;
+}
+.awesome-content .numbers {
+  text-align: center;
+}
+.awesome-content .numbers span {
+  font-size: 28px;
+}
+.awesome-content .numbers .empty-slider span {
+  width: 6px;
+  height: 6px;
+}
