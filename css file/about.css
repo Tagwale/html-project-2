@@ -147,6 +147,69 @@
   fill: #646464;
   cursor: pointer;
 }
+.main-features p{
+  color: #646464;
+}
+.history {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+.history-name {
+  margin-left: 50px;
+}
+.history-name .empty-slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+.history-name .empty-slider span {
+  display: flex;
+  width: 6px;
+  height: 6px;
+  margin: 0;
+}
+.history-name .empty-slider span:first-child {
+  margin-bottom: 4px;
+}
+.history-name .empty-slider span:last-child  {
+  background: #111;
+}
+.history-title {
+  display: flex;
+}
+.history-title h4 {
+  margin: 0;
+}
+.history-content p{
+  font-size: 14px;
+  line-height: 1.7em;
+  margin: 0;
+  margin-top: 20px;
+  color: #8d8d8d;
+}
+.history-content .history-logo {
+  position: relative;
+}
+ .history-content .history-logo:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 60%;
+  border-right: 2px dotted black;
+  top: 130%;
+  right: 50%;
+}
+.history-content:last-child .history-logo::after {
+  display: none;
+}
+.history-content .year {
+  margin: 0px 4px;
+  color: #ffb118;
+}
 .awesome-fact {
   background: #111;
   height: 350px;
